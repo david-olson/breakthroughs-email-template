@@ -1,59 +1,120 @@
 // These are the styles to make some of the templates look extra nice.
 // Feel free to remove these styles for production!
-
 // Body Styles 
 body,
-html, 
+html,
 .body {
-  background: #f3f3f3 !important;
+    background: #f3f3f3 !important;
 }
 
 .container.header {
-  background: #f3f3f3;
+    background: #f3f3f3;
 }
 
 .body-drip {
-  border-top: 8px solid #663399;
+    border-top: 8px solid #663399;
 }
 
 // Full Width Headers
 .header {
-  background: #8a8a8a;
+    background: #8a8a8a;
 }
 
 .header .columns {
-  padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 .header p {
-  color: #fff;
-  padding-top: 15px;
+    color: #fff;
+    padding-top: 15px;
 }
 
 .header .wrapper-inner {
-  padding: 20px;
+    padding: 20px;
 }
 
 .header .container {
-  background: transparent;
+    background: transparent;
 }
 
 // Social Media
 table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
+    background: #3B5998 !important;
+    border-color: #3B5998;
 }
 
 table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
+    background: #1daced !important;
+    border-color: #1daced;
 }
 
 table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
+    background: #DB4A39 !important;
+    border-color: #DB4A39;
 }
 
 .wrapper.secondary {
-  background: #f3f3f3;
+    background: #f3f3f3;
+}
+
+.dark {
+    background-color: #252525;
+    vertical-align: middle;
+    p {
+        text-align: center;
+        color: #bbbbbb;
+        margin-bottom: 0;
+        vertical-align: middle;
+        a {
+            color: #bbbbbb;
+            text-decoration: underline;
+        }
+    }
+    .darkTop {
+        padding: 8px 16px;
+    }
+}
+
+.brk_header {
+    background-color: #00b3ef;
+    background-image: url('../assets/img/bgimage.jpg');
+    background-size: cover;
+    .logo {
+        text-align: center;
+    }
+    img {
+        text-align: center;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    color: #052c4b;
+    margin-bottom: 0;
+}
+
+.gray_pattern {
+    background-color: #e1e1e1;
+    background-image: url('../assets/img/bgimagegray.jpg');
+    
+    background-repeat: repeat;
+    background-position: top left;
+}
+
+.dark_footer {
+    background-color: #464646 !important;
+    .footer_logo {
+        margin-bottom: 20px;
+    }
+    p {
+        color: #999999;
+        a {
+            color: #999999;
+            text-decoration: underline;
+        }
+    }
 }

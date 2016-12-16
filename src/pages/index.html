@@ -1,55 +1,90 @@
----
-layout: index-layout
-subject: My Email Templates
----
-
-<spacer size="16"></spacer>
-
-<container>
-
-  <spacer size="24"></spacer>
-  
-  <row>
-    <columns small="12">
-
-    <p class="lead">Hi there!</p>
-    <p style="color: #484848; line-height: 1.5;">Thanks for downloading <a href="http://foundation.zurb.com/emails/docs/">Foundation for Emails!</a> Your days of coding up painful HTML emails are officially over. You’ll soon be cranking out some slick, responsive emails in no time! To help get you up and running, we've put together 11 templates for the most common email use cases including newsletters, transactional emails, and marketing blasts. Feel free to customize them to your hearts content.</p>
-
-    <spacer size="16"></spacer>
-
-    <center>
-      <menu class="vertical">
-        <item href="{{root}}basic.html" target="_blank">Basic Template</item>
-        <item href="{{root}}drip.html" target="_blank">Drip Template</item>
-        <item href="{{root}}hero.html" target="_blank">Hero Template</item>
-        <item href="{{root}}marketing.html" target="_blank">Marketing Template</item>
-        <item href="{{root}}newsletter.html" target="_blank">Newsletter Template</item>
-        <item href="{{root}}newsletter-2.html" target="_blank">Newsletter 2 Template</item>
-        <item href="{{root}}order.html" target="_blank">Order Template</item>
-        <item href="{{root}}password.html" target="_blank">Password Template</item>
-        <item href="{{root}}sidebar.html" target="_blank">Sidebar Template</item>
-        <item href="{{root}}sidebar-hero.html" target="_blank">Sidebar Hero Template</item>
-        <item href="{{root}}welcome.html" target="_blank">Welcome Template</item>
-      </menu>
-    </center>
-
-    <spacer size="16"></spacer>
-
-    <p>Happy Coding,</p>
-    <p>The Foundation Team</p>
-
-
-    <spacer size="16"></spacer>
-
+<row class="dark">
+    <columns small="12" class="darkTop">
+        <p>Trouble with images? <a href="#">Click here</a> to see the email in a browser.</p>
     </columns>
-  </row>
-</container>
+</row>
 
-<spacer size="16"></spacer>
+<wrapper class="brk_header">
+    <row>
+        <columns small="12">
+            <center>
+                <spacer size="50"></spacer>
+                <img class="center" width="200" height="149" src="./assets/img/logo.png" alt="" />
+                <spacer size="50"></spacer>
+            </center>
+        </columns>
+    </row>
+    <container>
+        <spacer size="50"></spacer>
+        <row>
+            <columns small="12">
+                <h1>Headline Goes here Tristique Inceptos Ullamcorper Cursus</h1>
+            </columns>
+        </row>
+    </container>
+</wrapper>
+<wrapper class="gray_pattern">
+    <container>
+        <row>
+            <columns small="12">
+                <p>Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                <spacer size="25"></spacer>
+                <button class="large" href="#">Sign Up Now</button>
+                <spacer size="25"></spacer>
+                <img src="./assets/img/grayspacer.gif" height="1" width="548" style="height: 1px; width: 548px" alt="" />
+                <spacer size="25"></spacer>
+                <h2>Sit Vehicula Aenean Adipiscing Venenatis</h2>
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <spacer size="25"></spacer>
+                <img src="./assets/img/grayspacer.gif" height="1" width="548" style="height: 1px; width: 548px" alt="" />
+                <spacer size="25"></spacer>
+            </columns>
+        </row>
+        <row>
+            <columns large="6" small="12">
+                <center>
+                    <img src="./assets/img/washington.jpg" width="204" height="175" />
+                    <spacer size="25"></spacer>
+                    <p class="center title">Washington D.C.</p>
+                    <p class="center">New Location</p>
+                </center>
+            </columns>
+            <columns large="6" small="12">
+                <center>
+                    <img src="./assets/img/peyton.jpg" width="204" height="175" alt="" />
+                    <spacer size="25"></spacer>
+                    <p class="center title">Peyton Manning</p>
+                    <p class="center">Keynote Speaker</p>
+                </center>
+            </columns>
+        </row>
+    </container>
+</wrapper>
+<wrapper class="dark_footer">
+    <container>
+        <row>
+            <columns small="12">
+                <spacer size="25"></spacer>
+                <img src="./assets/img/grayspacer.gif" height="1" width="548" style="height: 1px; width: 548px" alt="" />
+                <spacer size="25"></spacer>
+                <h2>Visit <a href="#">breakthroughs.premierinc.com</a> to learn more.</h2>
+            </columns>
+        </row>
+        <row>
+            <wrapper>
+                <img width="580" height="39" src="./assets/img/footerpattern.jpg" alt="" />
+            </wrapper>
+        </row>
+        
+        <spacer size="25"></spacer>
+        <row>
+            <container class="dark_footer">
+                <img class="footer_logo" src="./assets/img/darklogo.jpg" width="205" height="49" alt="" />
+                <p>Copyright © 2016 Premier Inc. <a href="http://premierinc.com">premierinc.com</a></p>
 
-<center>
-  <small>Keep on keepin' on. &lt;3 <a style="color: #cacaca; text-decoration: underline;" href="http://zurb.com/">ZURB</a> </small>
-</center>
-
-<spacer size="16"></spacer>
-
+                <p>You recieved this email because you are signed up for news about Premier’s annual Breakthroughs Conference and Exhibition. If you have recieved this email in error, you may unsubscribe <a href="#">here</a>.</p>
+            </container>
+            <spacer size="50"></spacer>
+        </row>
+    </container>
+</wrapper>
