@@ -71,13 +71,13 @@ table.button.google table td {
         }
     }
     .darkTop {
-        padding: 8px 16px;
+        padding: 8px 16px 6px 16px !important;
     }
 }
 
 .brk_header {
     background-color: #00b3ef;
-    background-image: url('../assets/img/bgimage.jpg');
+    background-image: url('http://offers.premierinc.com/rs/381-NBB-525/images/bgimage.jpg');
     background-size: cover;
     .logo {
         text-align: center;
@@ -99,16 +99,19 @@ table.button.google table td {
 
 .gray_pattern {
     background-color: #e1e1e1;
-    background-image: url('../assets/img/bgimagegray.jpg');
+    background-image: url('http://offers.premierinc.com/rs/381-NBB-525/images/bgimagegray.jpg'); 
     
     background-repeat: repeat;
     background-position: top left;
 }
 
 .dark_footer {
-    background-color: #464646 !important;
+    background-color: #252525;
+//    background-image: url('http://offers.premierinc.com/rs/381-NBB-525/images/grayspacer.gif');
     .footer_logo {
         margin-bottom: 20px;
+        max-width: 200px;
+        height: auto;
     }
     p {
         color: #999999;
@@ -117,4 +120,10 @@ table.button.google table td {
             text-decoration: underline;
         }
     }
+    .dark_container{
+        background-color: #252525;
+    }
+}
+.divider {
+    background-color: #dddddd !important;
 }
